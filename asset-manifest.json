@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/gtHbFndr/static/css/main.c5f41bf1.css",
-    "main.js": "/gtHbFndr/static/js/main.8f9fad03.js",
-    "static/media/spinner.gif": "/gtHbFndr/static/media/spinner.e2ffacc949faa6aeba7c.gif",
-    "index.html": "/gtHbFndr/index.html",
-    "main.c5f41bf1.css.map": "/gtHbFndr/static/css/main.c5f41bf1.css.map",
-    "main.8f9fad03.js.map": "/gtHbFndr/static/js/main.8f9fad03.js.map"
+    "main.css": "/gtHbFndr/github-finder/static/css/main.c5f41bf1.css",
+    "main.js": "/gtHbFndr/github-finder/static/js/main.af8c39f1.js",
+    "static/media/spinner.gif": "/gtHbFndr/github-finder/static/media/spinner.e2ffacc949faa6aeba7c.gif",
+    "index.html": "/gtHbFndr/github-finder/index.html",
+    "main.c5f41bf1.css.map": "/gtHbFndr/github-finder/static/css/main.c5f41bf1.css.map",
+    "main.af8c39f1.js.map": "/gtHbFndr/github-finder/static/js/main.af8c39f1.js.map"
   },
   "entrypoints": [
     "static/css/main.c5f41bf1.css",
-    "static/js/main.8f9fad03.js"
+    "static/js/main.af8c39f1.js"
   ]
 }
