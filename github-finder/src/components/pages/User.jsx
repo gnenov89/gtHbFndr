@@ -8,18 +8,17 @@ import RepoList from '../repos/RepoList'
 import { getUserAndRepos } from '../context/github/GithubActions'
 
 function User() {
-
   const { user, loading, repos, dispatch } = useContext(GithubContext)
+
   const params = useParams()
 
   useEffect(() => {
     dispatch({ type: 'SET_LOADING' })
     const getUserData = async () => {
-
       const userData = await getUserAndRepos(params.login)
       dispatch({ type: 'GET_USER_AND_REPOS', payload: userData })
-
     }
+
     getUserData()
   }, [dispatch, params.login])
 
@@ -43,6 +42,7 @@ function User() {
   if (loading) {
     return <Spinner />
   }
+
   return (
     <>
       <div className='w-full mx-auto lg:w-10/12'>
